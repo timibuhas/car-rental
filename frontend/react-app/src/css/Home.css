@@ -1,0 +1,133 @@
+/* General styling */
+/* Importing Google Fonts - Roboto */
+.green-button {
+  background-color: #28a745; /* Green color */
+  color: white; /* Text color */
+  border: none; /* No border */
+  padding: 10px 20px; /* Padding around the button */
+  text-align: center; /* Center-align text */
+  text-decoration: none; /* Remove underline from text */
+  display: inline-block; /* Inline-block display */
+  font-size: 16px; /* Font size */
+  font-weight: bold; /* Bold text */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.green-button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  .dashboard {
+    padding: 20px;
+  }
+  
+  .dashboard-header {
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    padding: 30px 20px;
+    border-radius: 8px;
+  }
+  
+  .dashboard-header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  .dashboard-header p {
+    font-size: 1.2rem;
+  }
+  
+  /* Overview Section */
+  .dashboard-overview {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 30px 0;
+  }
+  
+  .card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card h2 {
+    margin-bottom: 10px;
+    color: #007bff;
+  }
+  
+  .card p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .card .btn {
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Quick Actions Section */
+  .dashboard-navigation {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-navigation h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .quick-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .quick-btn {
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .quick-btn:hover {
+    background-color: #218838;
+  }
+  

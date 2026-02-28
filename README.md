@@ -27,3 +27,6 @@ Aceasta este o aplicație dezvoltată ca proiect universitar pentru gestionarea 
 - Implementarea fluxurilor de date și comunicarea între client și server  
 
 ---
+
+## Demo Video
+https://youtu.be/d_9Hb1WVwks

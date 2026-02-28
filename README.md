@@ -1,6 +1,6 @@
-# Car-Rental Management Application 🚗
+# Car-Rental Management Application
 
-Aceasta este o aplicație dezvoltată ca proiect universitar pentru gestionarea unei firme de închirieri auto. Aplicația permite administrarea flotei de mașini, rezervărilor și a clienților, combinând un backend robust cu un frontend modern.
+Aceasta este o aplicație dezvoltată ca proiect universitar pentru gestionarea unei firme de închirieri auto. Aplicația permite administrarea flotei de mașini, rezervărilor și a clienților.
 
 ---
 

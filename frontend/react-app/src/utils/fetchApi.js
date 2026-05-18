@@ -3,8 +3,8 @@
 export const fetchApi = async () => {
     try {
       const [clientsResponse, carsResponse] = await Promise.all([
-        fetch("https://localhost:5000/clienti"),
-        fetch("https://localhost:5000/autoturisme"),
+        fetch("http://localhost:5000/clienti"),
+        fetch("http://localhost:5000/autoturisme"),
       ]);
   
       if (!clientsResponse.ok || !carsResponse.ok) {
